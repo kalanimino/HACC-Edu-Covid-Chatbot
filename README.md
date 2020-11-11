@@ -13,6 +13,6 @@ Step 3: Run the following commands in the bash terminal:
      ```$ pip install tflearn```  
      ```$ pip install tensorflow==1.15```  
         
-Step 4: Run the command: ```python main.py```
+Step 4: Run the command: ```python main.py```  
 Step 5: Once it says ```You can start talking to Calvik now! (typing 'stop' ends the chat)``` you can start chatting calvik.
 Note: you can stop chatting by inputting ```stop```
