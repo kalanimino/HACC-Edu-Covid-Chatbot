@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "hello",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+     "responses": ["Hi!", "Whats up, I can answer any COVID-19 questions you have!", "Hi there, do you have any questions related to COVID-19?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "im going to leave now", "goodbyw"],
+     "responses": ["Be safe out there. Make sure to follow proper safety measures when in public!", "C-Y-A", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+     "responses": ["I was born this year!", "I am approximately 0 years old!", "I may be an infant, but I know a lot about viruses! I'm a computer after all."],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you", "are you real", "whi are yoi?"],
+     "responses": ["You can call me Calvik.", "I'm just a bot who wants to help out those in need!", "My name is Calvik, not that it's important."],
+     "context_set": ""
+    },
+    {"tag": "sick",
+     "patterns": ["I'm coughing", "im sneezing","i feel nauseated", "I think I have COVID", "I'm suffering from the symptoms of covid", "Im suffering from the symptoms of covid", "I tested positive, what do i do?", "I'm positive.", "im lightheaded", "i have nausea", "i am dying", "i am currently in the casket"],
+     "responses": ["If you have tested positive or think you have COVID-19, you should first consult a medical professional and look at your local quarantine laws (I am only a bot after all). You should next "],
+     "context_set": ""
+    },
+    {"tag": "symptoms",
+     "patterns": ["what are the symptoms of COVID-19?", "how do i know if i have it", "how do i know if i have covid", "do I have covid?"],
+     "responses": [""],
+     "context_set": ""
+    }
+]
+}
