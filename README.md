@@ -3,7 +3,7 @@ Hi, thank you for looking at our chatbot.
 
 Setup Instructions:
 
-Step 1: Ensure you have Python 3.6.8 installed and that the pip command works for you. (Download link [here](https://www.python.org/downloads/release/python-386/)
+Step 1: Ensure you have Python 3.6.8 installed and that the pip command works for you. (Download link [here](https://www.python.org/downloads/release/python-386/))
 
 Step 2: Open a git bash and cd to the ```C\...\HACC-Edu-Covid-Chatbot\python directory```
 
