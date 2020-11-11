@@ -1,4 +1,4 @@
-# HACC-Edu-Covid-Chatbot
+# CALVIK: The COVID Chatbot
 Hi, thank you for looking at our chatbot.
 
 Setup Instructions:
