@@ -21,13 +21,18 @@
     },
     {"tag": "sick",
      "patterns": ["I'm coughing", "im sneezing","i feel nauseated", "I think I have COVID", "I'm suffering from the symptoms of covid", "Im suffering from the symptoms of covid", "I tested positive, what do i do?", "I'm positive.", "im lightheaded", "i have nausea", "i am dying", "i am currently in the casket"],
-     "responses": ["If you have tested positive or think you have COVID-19, you should first consult a medical professional and look at your local quarantine laws (I am only a bot after all). You should next "],
+     "responses": ["If you have tested positive or think you have COVID-19, you should first consult a medical professional and look at your local quarantine laws (I am only a bot after all). You should next be sure to distance yourself from people: Make sure to not leave your house unless it's for a COVID related health issue. Make sure to get lots of rest and stay hydrated at all times. You can take medicine (over the counter or prescribed) if you need cold or fever relief. And of course, make sure to stay in touch with your doctor/medical professional. Follow your doctors orders very strictly, any deviation may be a danger to yourself or those around you. Make sure to take note of your symptoms constantly and if they worsen, contact a medical professional immediately. You can find more information at the CDC's instructions for those who are sick: https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html"],
      "context_set": ""
     },
     {"tag": "symptoms",
-     "patterns": ["what are the symptoms of COVID-19?", "how do i know if i have it", "how do i know if i have covid", "do I have covid?"],
-     "responses": [""],
+     "patterns": ["what are the symptoms of COVID-19?", "how do i know if i have it", "how do i know if i have covid", "do I have covid?","symptoms","how","do","I","know"],
+     "responses": ["According to the CDC, the most common symptoms of COVID-19 are: Fever or chills, Cough, Shortness of breath or difficulty breathing, Fatigue, Muscle or body aches, Headache, New loss of taste or smell, Sore throat, Congestion or runny nose, Nausea or vomiting, Diarrhea"],
      "context_set": ""
-    }
+    },
+    {"tag": "history",
+        "patterns": ["where did it come from","where","origin", "what is the origin of covid", "how do i know if i have covid", "do I have covid?","symptoms","how","do","I","know"],
+        "responses": ["According to the CDC, the most common symptoms of COVID-19 are: Fever or chills, Cough, Shortness of breath or difficulty breathing, Fatigue, Muscle or body aches, Headache, New loss of taste or smell, Sore throat, Congestion or runny nose, Nausea or vomiting, Diarrhea"],
+        "context_set": ""
+       }
 ]
 }

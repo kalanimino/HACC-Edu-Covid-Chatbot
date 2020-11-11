@@ -11,18 +11,15 @@ import pickle
 
 with open ("resp.json") as file:
     data = json.load(file)
-
 try: 
     x
     with open("data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
-
 except: 
     words = []
     labels = []
     docs_x = []
     docs_y = []
-
     for intent in data["intents"]:
         for pattern in intent["patterns"]:
             wrds = nltk.word_tokenize(pattern)
@@ -32,7 +29,6 @@ except:
 
             if intent["tag"] not in labels:
                 labels.append(intent["tag"])
-
     words = [stemmer.stem(w.lower()) for w in words if w != "?"]
     words = sorted(list(set(words)))
 
@@ -105,10 +101,8 @@ def word_bag(y,words):
                 bag[i] = 1
     
     return numpy.array(bag)
-
-
-def chat():
-    print("You can start talking to the bot now! (typing 'stop' ends the chat)")
+def chatbot():
+    print("You can start talking to Calvik now! (typing 'stop' ends the chat)")
     while True:
          inp = input("You: ")
          if inp.lower() == "stop":
@@ -122,5 +116,5 @@ def chat():
              if z['tag'] == tag:
                 responses = z['responses']
 
-         print(random.choice(responses))
-chat()
+         print("Calvik: " + random.choice(responses))
+chatbot()
